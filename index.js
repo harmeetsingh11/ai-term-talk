@@ -1,6 +1,7 @@
 import Groq from 'groq-sdk';
 import dotenv from 'dotenv';
 import readline from 'readline';
+import chalk from 'chalk';
 
 dotenv.config();
 
@@ -35,22 +36,49 @@ const getGroqChatCompletion = async (message) => {
   }
 };
 
+const typeEffect = (text, chunkSize = 2, delay = 50) => {
+  // Displays text in chunks (words or phrases) with a delay between each chunk
+  return new Promise((resolve) => {
+    let i = 0;
+    const words = text.split(' ');
+    const interval = setInterval(() => {
+      const chunk = words.slice(i, i + chunkSize).join(' ') + ' ';
+      process.stdout.write(chunk);
+      i += chunkSize;
+      if (i >= words.length) {
+        clearInterval(interval);
+        resolve();
+      }
+    }, delay);
+  });
+};
+
 const main = async () => {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
+    prompt: chalk.blue.bold("Ask your question (or type 'exit' to quit): "),
   });
 
-  console.log("Ask a question (or type 'exit' to quit):");
+  rl.prompt();
 
   rl.on('line', async (input) => {
     if (input.toLowerCase() === 'exit') {
       rl.close();
     } else {
+      console.log(chalk.green.bold('Thinking...'));
       const response = await getGroqChatCompletion(input);
-      console.log(response);
-      console.log("\nAsk another question (or type 'exit' to quit):");
+      await typeEffect(response);
+      console.log('\n');
+      rl.setPrompt(
+        chalk.blue.bold("Ask another question (or type 'exit' to quit): ")
+      );
+      rl.prompt();
     }
+  });
+
+  rl.on('close', () => {
+    console.log(chalk.yellow.bold('GOODBYE!'));
   });
 };
 
