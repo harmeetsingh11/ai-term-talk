@@ -54,10 +54,14 @@ const typeEffect = (text, chunkSize = 2, delay = 50) => {
 };
 
 const main = async () => {
+  console.log(
+    chalk.bgGreen.bold(' WELCOME TO AI-TERM-TALK (CLI AI CHATBOT)! ')
+  );
+
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    prompt: chalk.blue.bold("Ask your question (or type 'exit' to quit): "),
+    prompt: chalk.cyan.bold("Ask your question (or type 'exit' to quit): "),
   });
 
   rl.prompt();
@@ -78,7 +82,7 @@ const main = async () => {
   });
 
   rl.on('close', () => {
-    console.log(chalk.yellow.bold('GOODBYE!'));
+    console.log(chalk.yellow.bold('\nGOODBYE!'));
   });
 };
 
