@@ -66,8 +66,11 @@ Here's a simple example of how to use the chatbot:
 
 ```sh
 $ npm run chatbot
-Welcome to the Terminal AI Chatbot!
-Ask me anything: What is the capital of France?
-Chatbot: The capital of France is Paris.
-Ask me anything: Who wrote 'To Kill a Mockingbird'?
-Chatbot: 'To Kill a Mockingbird' was written by Harper Lee.
+WELCOME TO AI-TERM-TALK (CLI AI CHATBOT)!
+Ask your question (or type 'exit' to quit): what is machine learning? (explain in one line)
+Thinking...
+Machine learning is a subfield of artificial intelligence that enables computers to learn from data without being explicitly programmed, allowing them to recognize patterns, make predictions, and improve their performance over time.    
+
+Ask another question (or type 'exit' to quit): exit
+
+GOODBYE!
