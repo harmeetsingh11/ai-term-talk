@@ -3,7 +3,11 @@
 
 ## Overview
 
-Welcome to the **AI-Term-Talk**, your command-line (CLI)/terminal based companion powered by advanced AI! This interactive chatbot leverages the cutting-edge `GroqCloud` API and the `LLaMA3` AI model to provide accurate, context-aware answers to your questions, all from the comfort of your terminal. Whether you're looking for quick information, tech assistance, or just a fun conversation, our AI chatbot is ready to chat!
+Welcome to the **AI-Term-Talk**, your command-line (CLI)/terminal-based companion powered by advanced AI! This interactive chatbot leverages the cutting-edge `GroqCloud` API and the `LLaMA3` AI model to provide accurate, context-aware answers to your questions, all from the comfort of your terminal. Whether you're looking for quick information, tech assistance, or just a fun conversation, our AI chatbot is ready to chat!
+
+## Project Context
+
+This project is the first task of the **Tublian AI Internship**. Through this challenge, I got to learn how to build applications on top of `Large Language Models`. Specifically, gain hands-on experience using cloud-based AI services and `LLaMa3`, the most popular `open-source LLM`.
 
 ## Features
 
@@ -15,8 +19,6 @@ Welcome to the **AI-Term-Talk**, your command-line (CLI)/terminal based companio
 
 ## Screenshots/Demo
 
-
-
 https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-486c-ab11-5d48e080f1b5
 
 ![ss](https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/f4a0789e-49b4-4e0b-bf5e-15fd2ec0b187)
@@ -24,21 +26,34 @@ https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-48
 
 ## Tech Stack
 
-![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-green)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+## Prerequisites
+
+Before you begin, ensure you have the following software installed on your machine:
+
+- [Node.js](https://nodejs.org/) - Make sure to install a version that is compatible with the project.
+- [npm](https://www.npmjs.com/) - Node.js package manager.
+- [Git](https://git-scm.com/) - Version control system.
+- [GroqCloud API Key](https://console.groq.com/) - Get your GroqCloud API Key.
 
 ## Dependencies
 
-- [groq-sdk](https://www.npmjs.com/package/groq-sdk): To interact with GroqCloud API.
-- [dotenv](https://www.npmjs.com/package/dotenv): To manage environment variables.
-- [chalk](https://www.npmjs.com/package/chalk): For colorful text in the terminal.
+- **[groq-sdk](https://www.npmjs.com/package/groq-sdk)**: version `0.4.0`
+  - Description: To interact with GroqCloud API.
+- **[dotenv](https://www.npmjs.com/package/dotenv)**: version `16.4.5`
+  - Description: Loads environment variables from a .env file into process.env.
+- **[chalk](https://www.npmjs.com/package/chalk)**: version `5.3.0`
+  - Description:  For colorful prompts in the terminal.
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/terminal-ai-chatbot.git
-    cd terminal-ai-chatbot
+    git clone https://github.com/harmeetsingh11/ai-term-talk.git
+    cd ai-term-talk
     ```
 
 2. Install the dependencies:
@@ -46,7 +61,7 @@ https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-48
     npm install
     ```
 
-3. Create a `.env` file in the root directory and add your Groq API key:
+3. Create a `.env` file in the root directory and add your Groq API key (You can get you Groq API key from [here](https://console.groq.com/):
     ```plaintext
     GROQ_API_KEY= <input your_groq_api_key_here>
     ```
