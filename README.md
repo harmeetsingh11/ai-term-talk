@@ -13,6 +13,15 @@ Welcome to the **AI-Term-Talk**, your command-line (CLI)/terminal based companio
 - **Environment Variable Management**: Securely manage API keys and configuration with dotenv.
 - **Continuous Conversation**: Keeps the conversation going until you decide to exit.
 
+## Screenshots/Demo
+
+
+
+https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-486c-ab11-5d48e080f1b5
+
+![ss](https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/f4a0789e-49b4-4e0b-bf5e-15fd2ec0b187)
+
+
 ## Tech Stack
 
 ![Node.js](https://img.shields.io/badge/Node.js-v14.17.0-green)
