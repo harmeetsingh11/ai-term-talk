@@ -1,4 +1,4 @@
-# AI-Term-Talk (A Terminal-based AI Chatbot) 🤖
+9# AI-Term-Talk (A Terminal-based AI Chatbot) 🤖
 
 
 ## Overview
@@ -92,7 +92,7 @@ Before you begin, ensure you have the following software installed on your machi
 
 Here's a simple example of how to use the chatbot:
 
-```sh
+```bash
 $ npm run chatbot
 WELCOME TO AI-TERM-TALK (CLI AI CHATBOT)!
 Ask your question (or type 'exit' to quit): what is machine learning? (explain in one line)
