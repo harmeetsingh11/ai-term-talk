@@ -1,4 +1,4 @@
-9# AI-Term-Talk (A Terminal-based AI Chatbot) 🤖
+# AI-Term-Talk (A Terminal-based AI Chatbot) 🤖
 
 
 ## Overview
