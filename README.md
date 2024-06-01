@@ -9,6 +9,18 @@ Welcome to the **AI-Term-Talk**, your command-line (CLI)/terminal-based companio
 
 This project is the first task of the **Tublian AI Internship**. Through this challenge, I got to learn how to build applications on top of `Large Language Models`. Specifically, gain hands-on experience using cloud-based AI services and `LLaMa3`, the most popular `open-source LLM`.
 
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo-video)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Dependencies](#dependencies) 
+- [Installation](#installation)
+- [Usage](#usage)
+- [Example](#example)
+
 ## Features
 
 - **Interactive Command-Line Interface**: Engage in conversations directly in your terminal.
@@ -17,7 +29,7 @@ This project is the first task of the **Tublian AI Internship**. Through this ch
 - **Environment Variable Management**: Securely manage API keys and configuration with dotenv.
 - **Continuous Conversation**: Keeps the conversation going until you decide to exit.
 
-## Screenshots/Demo
+## Screenshots
 
 https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-486c-ab11-5d48e080f1b5
 
