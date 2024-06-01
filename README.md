@@ -86,7 +86,7 @@ Before you begin, ensure you have the following software installed on your machi
     npm run chatbot
     ```
 
-2. Interact with the chatbot by typing your questions in the terminal. To exit, simply close the terminal or stop the process.
+2. Interact with the chatbot by typing your questions in the terminal. To exit, simply type `exit` in the terminal.
 
 ## Example
 
