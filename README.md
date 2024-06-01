@@ -31,10 +31,11 @@ This project is the first task of the **Tublian AI Internship**. Through this ch
 
 ## Screenshots
 
-https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-486c-ab11-5d48e080f1b5
-
 ![ss](https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/f4a0789e-49b4-4e0b-bf5e-15fd2ec0b187)
 
+## Demo Video
+
+https://github.com/harmeetsingh11/ai-term-talk/assets/130365071/51497426-2d37-486c-ab11-5d48e080f1b5
 
 ## Tech Stack
 
